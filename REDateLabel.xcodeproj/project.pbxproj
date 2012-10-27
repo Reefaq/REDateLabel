@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B700F0163BA03D00453AC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B700EF163BA03D00453AC3 /* UIKit.framework */; };
+		23B700F2163BA03D00453AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B700F1163BA03D00453AC3 /* Foundation.framework */; };
+		23B700F4163BA03D00453AC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B700F3163BA03D00453AC3 /* CoreGraphics.framework */; };
+		23B700FA163BA03D00453AC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23B700F8163BA03D00453AC3 /* InfoPlist.strings */; };
+		23B700FC163BA03D00453AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B700FB163BA03D00453AC3 /* main.m */; };
+		23B70100163BA03D00453AC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B700FF163BA03D00453AC3 /* AppDelegate.m */; };
+		23B70102163BA03D00453AC3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B70101163BA03D00453AC3 /* Default.png */; };
+		23B70104163BA03D00453AC3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B70103163BA03D00453AC3 /* Default@2x.png */; };
+		23B70106163BA03D00453AC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B70105163BA03D00453AC3 /* Default-568h@2x.png */; };
+		23B7010E163BA0B800453AC3 /* REDateLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B7010D163BA0B800453AC3 /* REDateLabel.m */; };
+		23B70123163BF3C900453AC3 /* NSDateTimeAgo.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23B7011D163BF3C900453AC3 /* NSDateTimeAgo.strings */; };
+		23B70124163BF3C900453AC3 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B70122163BF3C900453AC3 /* NSDate+TimeAgo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23B700EB163BA03D00453AC3 /* REDateLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REDateLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B700EF163BA03D00453AC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23B700F1163BA03D00453AC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23B700F3163BA03D00453AC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23B700F7163BA03D00453AC3 /* REDateLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "REDateLabel-Info.plist"; sourceTree = "<group>"; };
+		23B700F9163BA03D00453AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23B700FB163BA03D00453AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23B700FD163BA03D00453AC3 /* REDateLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "REDateLabel-Prefix.pch"; sourceTree = "<group>"; };
+		23B700FE163BA03D00453AC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23B700FF163BA03D00453AC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23B70101163BA03D00453AC3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		23B70103163BA03D00453AC3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		23B70105163BA03D00453AC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		23B7010C163BA0B800453AC3 /* REDateLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDateLabel.h; sourceTree = "<group>"; };
+		23B7010D163BA0B800453AC3 /* REDateLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDateLabel.m; sourceTree = "<group>"; };
+		23B7011B163BF3C900453AC3 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		23B7011E163BF3C900453AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		23B7011F163BF3C900453AC3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		23B70120163BF3C900453AC3 /* pt_BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_BR; path = pt_BR.lproj/NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		23B70121163BF3C900453AC3 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/NSDateTimeAgo.strings; sourceTree = "<group>"; };
+		23B70122163BF3C900453AC3 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B700E8163BA03D00453AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B700F0163BA03D00453AC3 /* UIKit.framework in Frameworks */,
+				23B700F2163BA03D00453AC3 /* Foundation.framework in Frameworks */,
+				23B700F4163BA03D00453AC3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B700E0163BA03D00453AC3 = {
+			isa = PBXGroup;
+			children = (
+				23B700F5163BA03D00453AC3 /* REDateLabel */,
+				23B700EE163BA03D00453AC3 /* Frameworks */,
+				23B700EC163BA03D00453AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B700EC163BA03D00453AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B700EB163BA03D00453AC3 /* REDateLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B700EE163BA03D00453AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23B700EF163BA03D00453AC3 /* UIKit.framework */,
+				23B700F1163BA03D00453AC3 /* Foundation.framework */,
+				23B700F3163BA03D00453AC3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B700F5163BA03D00453AC3 /* REDateLabel */ = {
+			isa = PBXGroup;
+			children = (
+				23B7011A163BF39000453AC3 /* NSDate+TimeAgo */,
+				23B700FE163BA03D00453AC3 /* AppDelegate.h */,
+				23B700FF163BA03D00453AC3 /* AppDelegate.m */,
+				23B700F6163BA03D00453AC3 /* Supporting Files */,
+				23B7010C163BA0B800453AC3 /* REDateLabel.h */,
+				23B7010D163BA0B800453AC3 /* REDateLabel.m */,
+			);
+			path = REDateLabel;
+			sourceTree = "<group>";
+		};
+		23B700F6163BA03D00453AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B700F7163BA03D00453AC3 /* REDateLabel-Info.plist */,
+				23B700F8163BA03D00453AC3 /* InfoPlist.strings */,
+				23B700FB163BA03D00453AC3 /* main.m */,
+				23B700FD163BA03D00453AC3 /* REDateLabel-Prefix.pch */,
+				23B70101163BA03D00453AC3 /* Default.png */,
+				23B70103163BA03D00453AC3 /* Default@2x.png */,
+				23B70105163BA03D00453AC3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23B7011A163BF39000453AC3 /* NSDate+TimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				23B7011B163BF3C900453AC3 /* NSDate+TimeAgo.h */,
+				23B7011C163BF3C900453AC3 /* Localization */,
+				23B70122163BF3C900453AC3 /* NSDate+TimeAgo.m */,
+			);
+			name = "NSDate+TimeAgo";
+			path = "NSDate-TimeAgo";
+			sourceTree = "<group>";
+		};
+		23B7011C163BF3C900453AC3 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				23B7011D163BF3C900453AC3 /* NSDateTimeAgo.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B700EA163BA03D00453AC3 /* REDateLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B70109163BA03D00453AC3 /* Build configuration list for PBXNativeTarget "REDateLabel" */;
+			buildPhases = (
+				23B700E7163BA03D00453AC3 /* Sources */,
+				23B700E8163BA03D00453AC3 /* Frameworks */,
+				23B700E9163BA03D00453AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REDateLabel;
+			productName = REDateLabel;
+			productReference = 23B700EB163BA03D00453AC3 /* REDateLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B700E2163BA03D00453AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Reefaq;
+			};
+			buildConfigurationList = 23B700E5163BA03D00453AC3 /* Build configuration list for PBXProject "REDateLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+				pt_BR,
+				zh_Hans,
+			);
+			mainGroup = 23B700E0163BA03D00453AC3;
+			productRefGroup = 23B700EC163BA03D00453AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B700EA163BA03D00453AC3 /* REDateLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B700E9163BA03D00453AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B700FA163BA03D00453AC3 /* InfoPlist.strings in Resources */,
+				23B70102163BA03D00453AC3 /* Default.png in Resources */,
+				23B70104163BA03D00453AC3 /* Default@2x.png in Resources */,
+				23B70106163BA03D00453AC3 /* Default-568h@2x.png in Resources */,
+				23B70123163BF3C900453AC3 /* NSDateTimeAgo.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B700E7163BA03D00453AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B700FC163BA03D00453AC3 /* main.m in Sources */,
+				23B70100163BA03D00453AC3 /* AppDelegate.m in Sources */,
+				23B7010E163BA0B800453AC3 /* REDateLabel.m in Sources */,
+				23B70124163BF3C900453AC3 /* NSDate+TimeAgo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23B700F8163BA03D00453AC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B700F9163BA03D00453AC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23B7011D163BF3C900453AC3 /* NSDateTimeAgo.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B7011E163BF3C900453AC3 /* en */,
+				23B7011F163BF3C900453AC3 /* es */,
+				23B70120163BF3C900453AC3 /* pt_BR */,
+				23B70121163BF3C900453AC3 /* zh_Hans */,
+			);
+			name = NSDateTimeAgo.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B70107163BA03D00453AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23B70108163BA03D00453AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23B7010A163BA03D00453AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "REDateLabel/REDateLabel-Prefix.pch";
+				INFOPLIST_FILE = "REDateLabel/REDateLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23B7010B163BA03D00453AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "REDateLabel/REDateLabel-Prefix.pch";
+				INFOPLIST_FILE = "REDateLabel/REDateLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B700E5163BA03D00453AC3 /* Build configuration list for PBXProject "REDateLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B70107163BA03D00453AC3 /* Debug */,
+				23B70108163BA03D00453AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B70109163BA03D00453AC3 /* Build configuration list for PBXNativeTarget "REDateLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B7010A163BA03D00453AC3 /* Debug */,
+				23B7010B163BA03D00453AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B700E2163BA03D00453AC3 /* Project object */;
+}
