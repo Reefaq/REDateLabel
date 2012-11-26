@@ -1,5 +1,4 @@
-REDateLabel
-========
+#REDateLabel
 
 simple date label which change the text on every second.
 
@@ -8,6 +7,9 @@ i.e datelabel.date = [NSDate date];
 
 Used [NSDate-TimeAgo] to show relative date format like "2 second ago", "2 minute ago", etc.
 
-Happy Coding. :)
+#License 
+
+http://reefaq.mit-license.org/
+
 
 [NSDate-TimeAgo]:https://github.com/kevinlawler/NSDate-TimeAgo
