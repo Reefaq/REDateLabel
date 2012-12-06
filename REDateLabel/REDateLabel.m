@@ -18,10 +18,6 @@
 
 @implementation REDateLabel
 
--(void)startTimer{
-    [self configureTimer];
-    dispatch_resume(timer);
-}
 -(void)configureTimer{
     if (!timer) {
         q_default = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
@@ -36,13 +32,13 @@
                 [self sizeToFit];
             });
         });
-        
+        dispatch_resume(timer);
     }
 }
 
 -(void)setDate:(NSDate *)date{
     _date = date;
-    [self startTimer];
+    [self configureTimer];
 }
 
 -(void)dealloc{
